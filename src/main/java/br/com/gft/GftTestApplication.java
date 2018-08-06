@@ -1,17 +1,15 @@
 package br.com.gft;
 
-import java.util.logging.Logger;
-
 @SpringBootApplication
 public class GftTestApplication 
   implements CommandLineRunner {
  
     private static Logger LOG = LoggerFactory
-      .getLogger(SpringBootConsoleApplication.class);
+      .getLogger(GftTestApplication.class);
  
     public static void main(String[] args) {
         LOG.info("STARTING THE APPLICATION");
-        SpringApplication.run(SpringBootConsoleApplication.class, args);
+        GftTestApplication.run(GftTestApplication.class, args);
         LOG.info("APPLICATION FINISHED");
     }
   
