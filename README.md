@@ -2,9 +2,20 @@
 Test for GFT Brasil
 
 Testar / Executar app:
-1. Ter Maven no path (mvn) e entrar no diretório dos fontes para executar os comando abaixo.
-2. Para executar os testes: **mvn test**
-3. Para executar: **mvn spring-boot:run**
+
+No terminal ir ao diretŕotio da aplicação.
+
+- Com Maven no path:
+1. Para executar os testes: **mvn test**
+2. Para executar: **mvn spring-boot:run**
+
+- Sem Maven, usando o wrapper:
+1. Executar teste
+	1.1. Linux/Unix/Mac OS X: ./mvnw test
+	1.2. Windows: mvnw.cmd test
+2. Executar app
+	2.1. Linux/Unix/Mac OS X: ./mvnw spring-boot:run
+	2.2. Windows: mvnw.cmd spring-boot:run
 
 ## Teste Prático | Developer
 
