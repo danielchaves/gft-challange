@@ -1,7 +1,7 @@
 # gft-challenge
 Test for GFT Brasil
 
-Testar / Executar app:
+## Instruções para Testar / Executar app:
 
 No terminal ir ao diretŕotio da aplicação.
 
@@ -11,11 +11,11 @@ No terminal ir ao diretŕotio da aplicação.
 
 - Sem Maven, usando o wrapper:
 1. Executar teste
-	1.1. Linux/Unix/Mac OS X: ./mvnw test
-	1.2. Windows: mvnw.cmd test
+	- Linux/Unix/Mac OS X: **./mvnw test**
+	- Windows: **mvnw.cmd test**
 2. Executar app
-	2.1. Linux/Unix/Mac OS X: ./mvnw spring-boot:run
-	2.2. Windows: mvnw.cmd spring-boot:run
+	- Linux/Unix/Mac OS X: **./mvnw spring-boot:run**
+	- Windows: **mvnw.cmd spring-boot:run**
 
 ## Teste Prático | Developer
 
