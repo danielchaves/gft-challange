@@ -1,6 +1,10 @@
 # gft-challange
 Test for GFT Brasil
 
+Executar app:
+1. Deve ter maven no path (mvn)
+2. mvn spring-boot:run
+
 Teste Prático | Developer
 
 ## Instruções:
