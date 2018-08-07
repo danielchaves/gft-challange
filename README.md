@@ -1,4 +1,4 @@
-# gft-challange
+# gft-challenge
 Test for GFT Brasil
 
 Testar / Executar app:
