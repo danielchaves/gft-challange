@@ -1,13 +1,14 @@
 # gft-challange
 Test for GFT Brasil
 
-Executar app:
-1. Deve ter maven no path (mvn)
-2. mvn spring-boot:run
+Testar / Executar app:
+1. Ter Maven no path (mvn) e entrar no diretório dos fontes para executar os comando abaixo.
+2. Para executar os testes: **mvn test**
+3. Para executar: **mvn spring-boot:run**
 
-Teste Prático | Developer
+## Teste Prático | Developer
 
-## Instruções:
+### Instruções:
 Por favor, leia atentamente as informações abaixo. Siga as instruções para
 completar esta avaliação prática utilizando a linguagem de sua preferência. Ao
 terminar, você deverá publicar seu código no GitHub, e enviar o link do repositório
@@ -50,7 +51,7 @@ Tipo de Prato | Manhã | Noite
 3 (bebida) | café | vinho
 4 (sobremesa) | Não se aplica | bolo
 
-Exemplos de entrada e saída:
+Exemplos de entrada e saída (Coberto nos testes unitários):
 * Entrada: manhã, 1, 2, 3
 * Saída: ovos, torrada, café
 * Entrada: manhã, 2, 1, 3

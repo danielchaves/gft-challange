@@ -1,8 +1,6 @@
 package br.com.gft.service;
 
 import java.util.regex.Pattern;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 import org.springframework.data.domain.Example;
@@ -45,7 +43,7 @@ public class RefeicaoService {
 			TipoPrato tp = TipoPrato.getByCodigo(i);
 			if(tp.equals(pratoExemplo.getTipoPrato())) {
 				multiplica++;
-				multiplicador = " (" + multiplica + "x)";
+				multiplicador = " (x" + multiplica + ")";
 				continue;
 			} else {
 				pratoExemplo.setTipoPrato(tp);

@@ -10,4 +10,8 @@ public enum Periodo {
 	}
 	
 	private String periodo;
+	
+	public String getPeriodo() {
+		return this.periodo;
+	}
 }
