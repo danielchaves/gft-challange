@@ -12,10 +12,10 @@ No terminal ir ao diretŕotio da aplicação.
 - Sem Maven, usando o wrapper:
 1. Executar teste
 	- Linux/Unix/Mac OS X: **./mvnw test**
-	- Windows: **mvnw.cmd test**
+	- Windows: **mvnw test**
 2. Executar app
 	- Linux/Unix/Mac OS X: **./mvnw spring-boot:run**
-	- Windows: **mvnw.cmd spring-boot:run**
+	- Windows: **mvnw spring-boot:run**
 
 ## Teste Prático | Developer
 
